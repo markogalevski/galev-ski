@@ -157,23 +157,41 @@ div.pair img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 320px;
-  width: 600px;
-  height: 250px;
+  padding: 50px 200px;
 }
 
 div.newsletter .content {
   background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 35px 60px;
+  flex: 1;
+  gap: 22vw;
+}
+
+div.newsletter div.content div.copy {
+  display: flex;
+  flex-direction: column;
+}
+
+.its-time {
+  font-weight: 600;
+  font-size: 18px;
+  color: #F9FAF8;
+}
+
+.annoying-text {
+  font-weight: 300;
+  font-size: 14px;
+  color: #e5e7eb;
+
 }
 
 div.newsletter button {
   border: 2px solid white;
   border-radius: 6px;
 }
-
-
-
-
 
 .footer {
   background-color: #1f2937;
