@@ -1,0 +1,187 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.header-and-title {
+  background-color: #1f2937;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 0px 250px 50px 250px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eB;
+}
+
+.logo {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+
+ul.links {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  gap: 12px;
+  color: #e5e7eB;
+}
+
+.title-card {
+  display: flex;
+  gap: 50px;
+}
+
+.title-and-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.title {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+div.title-and-copy .copy {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  margin-top: auto;
+  width: 100px;
+  padding: 3px 12px;
+}
+
+div.big-image img {
+  width: 32vw;
+  align-self: baseline;
+}
+
+.info {
+  background-color: white;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  padding-bottom: 80px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 80px;
+
+}
+
+.pair {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex: 0 1 auto;
+}
+
+div.pair img {
+  height: 100px;
+  weidth: 100px;
+  padding: 5px;
+  flex: 0 1 auto;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
+
+
+.subtext {}
+
+
+.testimonial {
+  background-color: #e5e7eB;
+  flex: 1;
+  display: flex;
+  padding: 50px 320px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: thin;
+  color: #1F2937;
+  width: 50hv;
+}
+
+.source {
+  align-self: flex-end;
+  font-weight: bolder;
+}
+
+
+.newsletter {
+  background-color: white;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 320px;
+  width: 600px;
+  height: 250px;
+}
+
+div.newsletter .content {
+  background-color: #3882f6;
+}
+
+div.newsletter button {
+  border: 2px solid white;
+  border-radius: 6px;
+}
+
+
+
+
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+  font-size: 12px;
+}
