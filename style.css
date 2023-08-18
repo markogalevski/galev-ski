@@ -136,12 +136,12 @@ div.pair img {
   gap: 15px;
 }
 
-.quote {
+.widget {
   font-style: italic;
   font-size: 36px;
   font-weight: thin;
   color: #1F2937;
-  width: 50hv;
+  width: 100%;
 }
 
 .source {
