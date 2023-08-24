@@ -2,73 +2,65 @@ body {
 	background-color: #fafafa;
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	height: 85vh;
 }
 
-.header {
-	height: 40px;
+.container {
+	flex: 1;
 	display: flex;
-	justify-content: space-between;
+	flex-direction: column;
 	align-items: center;
-	margin: 6px 15px;
+	gap: 20px;
 }
 
-.logo {
-	font-family: 'Courier New', Courier, monospace;
-	color: slategray;
+
+.message {
+	font-size: 20px;
 }
 
-.content {
+.intro {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 0 10vw;
 }
 
 h1 {
-	text-align: center;
 	letter-spacing: .3rem;
-	font-size: 7vw;
-	margin-top: 4vh;
-	margin-bottom: 4vh;
-	margin-left: 6vw;
-	margin-right: 6vw;
-}
-
-h3 {
-	padding-bottom: 20px;
-	font-size: 2.5vw;
-	font-weight: 600;
-	margin: 0 0;
-	margin-bottom: 5vh;
-	min-width: 45vw;
-
-}
-
-.mailbox {
-	border: 1px solid slategray;
-	border-radius: 10px;
-	padding: 12px 25px;
-	width: 45vw;
-	min-width: 250px;
-	flex: 0 0 auto;
-	box-shadow: 0 0 4px 1px;
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
 	font-size: 20px;
 }
 
-.headline {
-	font-size: 24px;
-	font-weight: 600;
-}
-
-.message {
-	font-style: italic;
-}
 
 a {
+	border-bottom: 3px dotted black;
+	text-decoration: none;
 	color: black;
+}
+
+.projects {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.project {
+	font-size: 20px;
+	flex-grow: 1;
+}
+
+
+.mailbox {
+	width: 50vw;
+	min-width: 250px;
+	display: flex;
+	flex-direction: column;
+	font-size: 20px;
+}
+
+div.mailbox h1 {
+	margin-top: 100px;
 }
