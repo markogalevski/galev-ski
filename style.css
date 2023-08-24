@@ -1,205 +1,79 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #fafafa;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  margin: 0;
-}
-
-.header-and-title {
-  background-color: #1f2937;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-  padding: 0px 250px 50px 250px;
+	display: flex;
+	flex-direction: column;
 }
 
 .header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #e5e7eB;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 6px 15px;
 }
 
 .logo {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 18px;
+	font-family: 'Courier New', Courier, monospace;
+	color: slategray;
 }
 
-ul.links {
-  text-decoration: none;
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  gap: 12px;
-  color: #e5e7eB;
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
+	margin: 0vh 10vw;
 }
 
-.title-card {
-  display: flex;
-  gap: 50px;
+h1 {
+	letter-spacing: .3rem;
+	font-size: 7vw;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+	margin-left: 0vh;
+	margin-right: 6vw;
 }
 
-.title-and-copy {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.title {
-  color: #f9faf8;
-  font-size: 48px;
-  font-weight: 900;
-}
-
-div.title-and-copy .copy {
-  color: #e5e7eb;
-  font-size: 18px;
-}
-
-button {
-  background-color: #3882f6;
-  color: white;
-  border-radius: 4px;
-  border: none;
-  margin-top: auto;
-  width: 100px;
-  padding: 3px 12px;
-}
-
-div.big-image img {
-  width: 32vw;
-  align-self: baseline;
-}
-
-.info {
-  background-color: white;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding: 15px;
-  padding-bottom: 80px;
-}
-
-h2 {
-  font-size: 36px;
-  font-weight: extra-bold;
-  color: #1F2937;
-}
-
-.images {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  gap: 80px;
+h3 {
+	padding-bottom: 20px;
+	font-size: 2vw;
+	font-weight: 600;
+	margin: 0vh 0vw;
+	margin-bottom: 5vh;
+	min-width: 45vw;
 
 }
 
-.pair {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  flex: 0 1 auto;
+.mailbox {
+	border: 1px solid slategray;
+	border-radius: 10px;
+	padding: 12px 25px;
+	font-size: 18px;
+	width: 45vw;
+	min-width: 250px;
+	flex: 0 0 auto;
+	box-shadow: 0 0 4px 1px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	font-size: 20px;
 }
 
-div.pair img {
-  height: 100px;
-  weidth: 100px;
-  padding: 5px;
-  flex: 0 1 auto;
-  border: 4px solid #3882f6;
-  border-radius: 10px;
+.headline {
+	font-size: 24px;
+	font-weight: 600;
 }
 
-
-.subtext {}
-
-
-.testimonial {
-  background-color: #e5e7eB;
-  flex: 1;
-  display: flex;
-  padding: 50px 320px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
+.message {
+	font-style: italic;
 }
 
-.widget {
-  font-style: italic;
-  font-size: 36px;
-  font-weight: thin;
-  color: #1F2937;
-  width: 100%;
-}
+.mail {}
 
-.source {
-  align-self: flex-end;
-  font-weight: bolder;
-}
-
-
-.newsletter {
-  background-color: white;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 200px;
-}
-
-div.newsletter .content {
-  background-color: #3882f6;
-  display: flex;
-  align-items: center;
-  border-radius: 5px;
-  padding: 35px 60px;
-  flex: 1;
-  gap: 22vw;
-}
-
-div.newsletter div.content div.copy {
-  display: flex;
-  flex-direction: column;
-}
-
-.its-time {
-  font-weight: 600;
-  font-size: 18px;
-  color: #F9FAF8;
-}
-
-.annoying-text {
-  font-weight: 300;
-  font-size: 14px;
-  color: #e5e7eb;
-
-}
-
-div.newsletter button {
-  border: 2px solid white;
-  border-radius: 6px;
-}
-
-.footer {
-  background-color: #1f2937;
-  color: #e5e7eb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 20px;
-  font-size: 12px;
+a {
+	color: black;
 }
